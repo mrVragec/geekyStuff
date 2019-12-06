@@ -1,0 +1,42 @@
+# Site settings
+title: Just a non-geek
+description: 'Just another blog of a try-not-to-be a geek'
+url: 'https://mrvragec.github.io'
+baseurl: '/geekyStuff'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Simon Crnko'
+  email: vragec@pekel.org
+  twitter_username: mrvragec
+  github_username:  mrvragec
+  linkedin_username:  scrnko
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
