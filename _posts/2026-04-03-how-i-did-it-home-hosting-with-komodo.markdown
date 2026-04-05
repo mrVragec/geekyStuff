@@ -1,7 +1,7 @@
 ---
 title:  "How I did it: Home Hosting with Komodo"
 date:   2026-04-03 10:50:00
-categories: [dietpi, home-hosting, komodo]
+categories: [home-hosting]
 tags: [dietpi, linux, komodo, how-i-did-it]
 ---
 
